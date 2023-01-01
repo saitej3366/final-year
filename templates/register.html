@@ -1,0 +1,41 @@
+<html>
+<head>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/register.css')}}">
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>REGISTRATION FORM</h2>
+        <div class="form-container">
+            <form name="f1" action="" method="POST">
+                <div class="input-name">
+                    <i class="fa fa-user" style="padding: 8px 9px"></i>
+                  <input type="text" placeholder="ENTER   YOUR   NAME" required  name="name" class="name">    
+                </div>
+                <div class="input-name">
+                    <i class="fa fa-user" style="padding: 8px 9px"></i>
+                  <input type="text" placeholder="ENTER   USER  NAME" required name="username" class="username">    
+                </div>
+                <div class="input-name">
+                  <i class=" fa fa-envelope email"></i>
+                  <input type="email" placeholder="ENTER YOUR EMAIL ID"required name="email" class="em">    
+                </div>
+                <div class="input-name">
+                  <i class=" fa fa-lock lock"></i>
+                  <input type="password" placeholder="ENTER YOUR PASSWORD"  required name="password" class="password">    
+                </div>
+                <div class="input-name">
+                  <i class=" fa fa-lock lock"></i>
+                  <input type="password" placeholder="CONFORM PASSWORD" required name="conformpassword" class="conformpassword">    
+                </div>
+                <div class="input-name">
+                  <input type="submit" class="button" value="Register">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+    

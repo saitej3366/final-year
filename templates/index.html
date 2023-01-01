@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+    </head>
+    <body>
+        <div class="title">
+            PARKINSON DISEASE DETECTION USING MACHINE LEARNING
+        </div>
+        <div class="nav">
+           <a href="/">HOME</a>
+           <a href="/login">LOGIN</a>
+           <a href="/register">REGISTER</a>
+        </div>
+             <div class="abstract">
+         <h2>ABSTRACT</h2>
+         <p>-PD patients.Parkinson’s disease (PD) is a neurodegenerative disorder,which is responsible for 
+            the deterioration of motor function due to loss of dopamine-producing brain cells i.e. 
+            neurons,Tremors,stiffness,slowness in movements,shaking,and impaired balance are the some 
+            of the primary symptoms of PD.Predicting Parkinson’s Disease by using Data mining in 
+            systematic way. This project aims at detecting parkinson’s disease through data mining. Since 
+            there is no standard test to detect parkinsonism, we propose a statistical approach using the 
+            most common symptoms of PD which are gait, tremors and micro-graphia . This includes 
+            analyzing the co-relation between the symptoms and classifying the achieved data using 
+            Support Vector Machine classification algorithm in order to find the algorithm accuracy in 
+            diagnosing.In our model,a huge amount of data is collected from the normal person and 
+            previously affected persons by Parkinson’s disease.These Data is trained using machine 
+            learning algorithms.From the whole data 60% is used for training and 40% is used for testing.
+            There are 24 columns in the data set each column will indicate the symptom values of a patient 
+            except the status column. The status column has 0's and I's.those values will decide the person 
+            is effected with Parkinsons disease. I's indicate person is effected, 0's indicate normal 
+            conditions.</p>
+             </div>
+             <div class="imags">
+                <div class="name">
+                <div class="sai"><img src="{{url_for('static',filename='images/s1.jpg')}}"/>
+             <h3>P.SAI TEJA</h3></div>
+                <div class="ani"><img src="{{url_for('static',filename='images/dev.jpg')}}"/>
+             <h3>P.DEVENDAR</h3></div>
+                 
+             </div>
+             <div class="names">
+                <div class="tarun"><img src="{{url_for('static',filename='images/sruthi.jpg')}}"/>
+             <h3>B.SAI SRUTHI</h3></div>
+                <div class="nadh"><img src="{{url_for('static',filename='images/v1.jpg')}}"/>
+             <h3>K. DURGA VAMSIKUMAR</h3></div>
+                 
+             </div>
+             </div>
+    </body>
+</html>
